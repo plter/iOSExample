@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C4F619A32A90004CA361"
-               BuildableName = "UsingRecordAudioAPI.app"
-               BlueprintName = "UsingRecordAudioAPI"
-               ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+               BlueprintIdentifier = "313E38B719B701C1007B85F8"
+               BuildableName = "E002GetIDFA.app"
+               BlueprintName = "E002GetIDFA"
+               ReferencedContainer = "container:E002GetIDFA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C50819A32A91004CA361"
-               BuildableName = "UsingRecordAudioAPITests.xctest"
-               BlueprintName = "UsingRecordAudioAPITests"
-               ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+               BlueprintIdentifier = "313E38C919B701C1007B85F8"
+               BuildableName = "E002GetIDFATests.xctest"
+               BlueprintName = "E002GetIDFATests"
+               ReferencedContainer = "container:E002GetIDFA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C50819A32A91004CA361"
-               BuildableName = "UsingRecordAudioAPITests.xctest"
-               BlueprintName = "UsingRecordAudioAPITests"
-               ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+               BlueprintIdentifier = "313E38C919B701C1007B85F8"
+               BuildableName = "E002GetIDFATests.xctest"
+               BlueprintName = "E002GetIDFATests"
+               ReferencedContainer = "container:E002GetIDFA.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
-            BuildableName = "UsingRecordAudioAPI.app"
-            BlueprintName = "UsingRecordAudioAPI"
-            ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+            BlueprintIdentifier = "313E38B719B701C1007B85F8"
+            BuildableName = "E002GetIDFA.app"
+            BlueprintName = "E002GetIDFA"
+            ReferencedContainer = "container:E002GetIDFA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
-            BuildableName = "UsingRecordAudioAPI.app"
-            BlueprintName = "UsingRecordAudioAPI"
-            ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+            BlueprintIdentifier = "313E38B719B701C1007B85F8"
+            BuildableName = "E002GetIDFA.app"
+            BlueprintName = "E002GetIDFA"
+            ReferencedContainer = "container:E002GetIDFA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
-            BuildableName = "UsingRecordAudioAPI.app"
-            BlueprintName = "UsingRecordAudioAPI"
-            ReferencedContainer = "container:UsingRecordAudioAPI.xcodeproj">
+            BlueprintIdentifier = "313E38B719B701C1007B85F8"
+            BuildableName = "E002GetIDFA.app"
+            BlueprintName = "E002GetIDFA"
+            ReferencedContainer = "container:E002GetIDFA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -25,13 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3150C4F719A32A90004CA361 /* UsingRecordAudioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingRecordAudioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3150C4F719A32A90004CA361 /* E001UsingRecordAudioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E001UsingRecordAudioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3150C4FB19A32A90004CA361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3150C4FC19A32A90004CA361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3150C4FE19A32A90004CA361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3150C50119A32A91004CA361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3150C50319A32A91004CA361 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3150C50919A32A91004CA361 /* UsingRecordAudioAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingRecordAudioAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3150C50919A32A91004CA361 /* E001UsingRecordAudioAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = E001UsingRecordAudioAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3150C50E19A32A91004CA361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3150C50F19A32A91004CA361 /* UsingRecordAudioAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRecordAudioAPITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +66,8 @@
 		3150C4F819A32A90004CA361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3150C4F719A32A90004CA361 /* UsingRecordAudioAPI.app */,
-				3150C50919A32A91004CA361 /* UsingRecordAudioAPITests.xctest */,
+				3150C4F719A32A90004CA361 /* E001UsingRecordAudioAPI.app */,
+				3150C50919A32A91004CA361 /* E001UsingRecordAudioAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3150C4F619A32A90004CA361 /* UsingRecordAudioAPI */ = {
+		3150C4F619A32A90004CA361 /* E001UsingRecordAudioAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3150C51319A32A91004CA361 /* Build configuration list for PBXNativeTarget "UsingRecordAudioAPI" */;
+			buildConfigurationList = 3150C51319A32A91004CA361 /* Build configuration list for PBXNativeTarget "E001UsingRecordAudioAPI" */;
 			buildPhases = (
 				3150C4F319A32A90004CA361 /* Sources */,
 				3150C4F419A32A90004CA361 /* Frameworks */,
@@ -124,14 +124,14 @@
 			);
 			dependencies = (
 			);
-			name = UsingRecordAudioAPI;
+			name = E001UsingRecordAudioAPI;
 			productName = UsingRecordAudioAPI;
-			productReference = 3150C4F719A32A90004CA361 /* UsingRecordAudioAPI.app */;
+			productReference = 3150C4F719A32A90004CA361 /* E001UsingRecordAudioAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3150C50819A32A91004CA361 /* UsingRecordAudioAPITests */ = {
+		3150C50819A32A91004CA361 /* E001UsingRecordAudioAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3150C51619A32A91004CA361 /* Build configuration list for PBXNativeTarget "UsingRecordAudioAPITests" */;
+			buildConfigurationList = 3150C51619A32A91004CA361 /* Build configuration list for PBXNativeTarget "E001UsingRecordAudioAPITests" */;
 			buildPhases = (
 				3150C50519A32A91004CA361 /* Sources */,
 				3150C50619A32A91004CA361 /* Frameworks */,
@@ -142,9 +142,9 @@
 			dependencies = (
 				3150C50B19A32A91004CA361 /* PBXTargetDependency */,
 			);
-			name = UsingRecordAudioAPITests;
+			name = E001UsingRecordAudioAPITests;
 			productName = UsingRecordAudioAPITests;
-			productReference = 3150C50919A32A91004CA361 /* UsingRecordAudioAPITests.xctest */;
+			productReference = 3150C50919A32A91004CA361 /* E001UsingRecordAudioAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3150C4F219A32A90004CA361 /* Build configuration list for PBXProject "UsingRecordAudioAPI" */;
+			buildConfigurationList = 3150C4F219A32A90004CA361 /* Build configuration list for PBXProject "E001UsingRecordAudioAPI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3150C4F619A32A90004CA361 /* UsingRecordAudioAPI */,
-				3150C50819A32A91004CA361 /* UsingRecordAudioAPITests */,
+				3150C4F619A32A90004CA361 /* E001UsingRecordAudioAPI */,
+				3150C50819A32A91004CA361 /* E001UsingRecordAudioAPITests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 /* Begin PBXTargetDependency section */
 		3150C50B19A32A91004CA361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3150C4F619A32A90004CA361 /* UsingRecordAudioAPI */;
+			target = 3150C4F619A32A90004CA361 /* E001UsingRecordAudioAPI */;
 			targetProxy = 3150C50A19A32A91004CA361 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = UsingRecordAudioAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E001UsingRecordAudioAPI;
 			};
 			name = Debug;
 		};
@@ -338,7 +338,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = UsingRecordAudioAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E001UsingRecordAudioAPI;
 			};
 			name = Release;
 		};
@@ -356,7 +356,7 @@
 				);
 				INFOPLIST_FILE = UsingRecordAudioAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E001UsingRecordAudioAPITests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingRecordAudioAPI.app/UsingRecordAudioAPI";
 			};
 			name = Debug;
@@ -371,7 +371,7 @@
 				);
 				INFOPLIST_FILE = UsingRecordAudioAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E001UsingRecordAudioAPITests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingRecordAudioAPI.app/UsingRecordAudioAPI";
 			};
 			name = Release;
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3150C4F219A32A90004CA361 /* Build configuration list for PBXProject "UsingRecordAudioAPI" */ = {
+		3150C4F219A32A90004CA361 /* Build configuration list for PBXProject "E001UsingRecordAudioAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3150C51119A32A91004CA361 /* Debug */,
@@ -388,21 +388,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3150C51319A32A91004CA361 /* Build configuration list for PBXNativeTarget "UsingRecordAudioAPI" */ = {
+		3150C51319A32A91004CA361 /* Build configuration list for PBXNativeTarget "E001UsingRecordAudioAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3150C51419A32A91004CA361 /* Debug */,
 				3150C51519A32A91004CA361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3150C51619A32A91004CA361 /* Build configuration list for PBXNativeTarget "UsingRecordAudioAPITests" */ = {
+		3150C51619A32A91004CA361 /* Build configuration list for PBXNativeTarget "E001UsingRecordAudioAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3150C51719A32A91004CA361 /* Debug */,
 				3150C51819A32A91004CA361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
