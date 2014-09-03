@@ -5,6 +5,6 @@
       location = "group:E002GetIDFA/E002GetIDFA.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:UsingRecordAudioAPI/E001UsingRecordAudioAPI.xcodeproj">
+      location = "group:E001UsingRecordAudioAPI/E001UsingRecordAudioAPI.xcodeproj">
    </FileRef>
 </Workspace>
