@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UsingRecordAudioAPI.xcscheme</key>
+		<key>E001UsingRecordAudioAPI.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3150C4F619A32A90004CA361</key>
+		<key>31D7338919C98D8100173272</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3150C50819A32A91004CA361</key>
+		<key>31D733A119C98D8100173272</key>
 		<dict>
 			<key>primary</key>
 			<true/>

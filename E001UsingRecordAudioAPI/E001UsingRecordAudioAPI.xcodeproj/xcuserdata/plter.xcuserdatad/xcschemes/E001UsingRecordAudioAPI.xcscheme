@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C4F619A32A90004CA361"
+               BlueprintIdentifier = "31D7338919C98D8100173272"
                BuildableName = "E001UsingRecordAudioAPI.app"
                BlueprintName = "E001UsingRecordAudioAPI"
                ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C50819A32A91004CA361"
+               BlueprintIdentifier = "31D733A119C98D8100173272"
                BuildableName = "E001UsingRecordAudioAPITests.xctest"
                BlueprintName = "E001UsingRecordAudioAPITests"
                ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3150C50819A32A91004CA361"
+               BlueprintIdentifier = "31D733A119C98D8100173272"
                BuildableName = "E001UsingRecordAudioAPITests.xctest"
                BlueprintName = "E001UsingRecordAudioAPITests"
                ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
+            BlueprintIdentifier = "31D7338919C98D8100173272"
             BuildableName = "E001UsingRecordAudioAPI.app"
             BlueprintName = "E001UsingRecordAudioAPI"
             ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
+            BlueprintIdentifier = "31D7338919C98D8100173272"
             BuildableName = "E001UsingRecordAudioAPI.app"
             BlueprintName = "E001UsingRecordAudioAPI"
             ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3150C4F619A32A90004CA361"
+            BlueprintIdentifier = "31D7338919C98D8100173272"
             BuildableName = "E001UsingRecordAudioAPI.app"
             BlueprintName = "E001UsingRecordAudioAPI"
             ReferencedContainer = "container:E001UsingRecordAudioAPI.xcodeproj">

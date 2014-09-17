@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UsingRecordAudioAPI.xcodeproj">
+      location = "self:E001UsingRecordAudioAPI.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,15 +1,15 @@
 //
-//  UsingRecordAudioAPITests.swift
-//  UsingRecordAudioAPITests
+//  E001UsingRecordAudioAPITests.swift
+//  E001UsingRecordAudioAPITests
 //
-//  Created by plter on 8/19/14.
+//  Created by plter on 9/17/14.
 //  Copyright (c) 2014 jikexueyuan. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class UsingRecordAudioAPITests: XCTestCase {
+class E001UsingRecordAudioAPITests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>37FF8CB7-81D7-42A4-8750-DB5D3D86ED91</string>
+	<string>01A87D2D-5D9B-4DCA-8D7C-115F503C0CEF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>UsingRecordAudioAPI</string>
+	<string>E001UsingRecordAudioAPI</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
 		<string>https://github.com/plter/iOSExample.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UsingRecordAudioAPI/UsingRecordAudioAPI.xcodeproj</string>
+	<string>E001UsingRecordAudioAPI/E001UsingRecordAudioAPI.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
