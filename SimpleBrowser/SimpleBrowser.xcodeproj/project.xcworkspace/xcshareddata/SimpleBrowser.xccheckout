@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>78B94CFA-33EA-4948-AB27-C4FD90A0F814</string>
+	<string>0D659264-949E-4383-A8CD-A78EE739E858</string>
 	<key>IDESourceControlProjectName</key>
-	<string>iOSExample</string>
+	<string>SimpleBrowser</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
 		<string>https://github.com/plter/iOSExample.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOSExample.xcworkspace</string>
+	<string>SimpleBrowser/SimpleBrowser.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
-		<string>..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/plter/iOSExample.git</string>
