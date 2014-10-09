@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A386a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sWI-wu-guN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--示例-->
+        <scene sceneID="G6e-wN-Xc3">
+            <objects>
+                <viewController id="sTq-ks-wu5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pvO-La-dhn"/>
+                        <viewControllerLayoutGuide type="bottom" id="qRq-o4-GYs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Dq-Ei-SB2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsY-tt-jC0">
+                                <rect key="frame" x="16" y="72" width="90" height="30"/>
+                                <state key="normal" title="选择图片示例">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EP7-nK-rxp" kind="show" id="pMV-Zi-moQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="示例" id="wtg-ki-I8i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3V-Xm-bZj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875" y="350"/>
+        </scene>
+        <!--选择图片示例-->
+        <scene sceneID="SRk-hm-Of9">
+            <objects>
+                <viewController title="选择图片示例" id="EP7-nK-rxp" customClass="ViewController" customModule="PickImageFromPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qQP-HQ-VP4"/>
+                        <viewControllerLayoutGuide type="bottom" id="m7E-9z-Pj7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Q6-B7-ky7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lug-SH-VNG">
+                                <rect key="frame" x="16" y="72" width="135" height="30"/>
+                                <state key="normal" title="选择图片呈现在下面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectImageBtnClicked:" destination="EP7-nK-rxp" eventType="touchUpInside" id="47s-fc-PW9"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="God-3A-9zE">
+                                <rect key="frame" x="16" y="110" width="568" height="470"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="God-3A-9zE" secondAttribute="trailing" constant="16" id="H6I-ot-9t5"/>
+                            <constraint firstAttribute="bottom" secondItem="God-3A-9zE" secondAttribute="bottom" constant="20" id="ML7-hO-4e9"/>
+                            <constraint firstItem="God-3A-9zE" firstAttribute="top" secondItem="5Q6-B7-ky7" secondAttribute="top" constant="110" id="anz-5g-ckw"/>
+                            <constraint firstItem="God-3A-9zE" firstAttribute="leading" secondItem="5Q6-B7-ky7" secondAttribute="leading" constant="16" id="tv7-wm-8UM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="God-3A-9zE" id="1eE-wM-VXT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l2k-HU-zjt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="350"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9RM-9A-ElV">
+            <objects>
+                <navigationController id="sWI-wu-guN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="prh-Sg-AWh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sTq-ks-wu5" kind="relationship" relationship="rootViewController" id="BGP-wP-gXl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I16-FB-N8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="350"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>824249B6-60BF-4D4C-8095-25DC7BDBFF53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PickImageFromPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
+		<string>https://github.com/plter/iOSExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PickImageFromPhone/PickImageFromPhone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/plter/iOSExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80D7C3EA4FDA8A7689F992AA8DAFBFD61A8C6E7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
