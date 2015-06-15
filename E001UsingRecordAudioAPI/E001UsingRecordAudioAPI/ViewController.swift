@@ -14,16 +14,20 @@ class ViewController: UIViewController,AVAudioRecorderDelegate {
     
     var a:AVAudioRecorder!
     var p:AVAudioPlayer!
+    var s:AVAudioSession!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.AllDomainsMask, true)
+        
+        s = AVAudioSession.sharedInstance()
+        s.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        s.setActive(true, error: nil)
         
         a = AVAudioRecorder(URL: NSURL(fileURLWithPath: "\(paths[0])/sound.wav"), settings: nil, error: nil)
         a.delegate = self
-        println("\(a.prepareToRecord())")
     }
     
     @IBAction func play(sender: AnyObject) {
@@ -39,7 +43,8 @@ class ViewController: UIViewController,AVAudioRecorderDelegate {
     }
     
     @IBAction func startRecord(sender: AnyObject) {
-        println("\(a.record())");
+        println("Perpare to record:\(a.prepareToRecord())")
+        println("Record:\(a.record())");
     }
     
     override func didReceiveMemoryWarning() {
