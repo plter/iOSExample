@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SaveTextDataToFile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bev-yf-JDG">
+                                <rect key="frame" x="20" y="20" width="71" height="30"/>
+                                <state key="normal" title="Read Data"/>
+                                <connections>
+                                    <action selector="btnReadDataClickedHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qb7-QR-AIN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmd-XS-BtD">
+                                <rect key="frame" x="100" y="20" width="69" height="30"/>
+                                <state key="normal" title="Save Data"/>
+                                <connections>
+                                    <action selector="btnSaveDataClickedHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3OB-B9-twh"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h2y-X1-XxO">
+                                <rect key="frame" x="20" y="58" width="560" height="522"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bev-yf-JDG" firstAttribute="baseline" secondItem="Pmd-XS-BtD" secondAttribute="baseline" id="7vv-83-9t8"/>
+                            <constraint firstItem="Pmd-XS-BtD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ipr-bD-teF"/>
+                            <constraint firstItem="h2y-X1-XxO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LjD-jb-qch"/>
+                            <constraint firstItem="h2y-X1-XxO" firstAttribute="top" secondItem="Bev-yf-JDG" secondAttribute="bottom" constant="8" symbolic="YES" id="Md0-3a-uRp"/>
+                            <constraint firstItem="h2y-X1-XxO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pj3-F4-Jnh"/>
+                            <constraint firstAttribute="bottom" secondItem="h2y-X1-XxO" secondAttribute="bottom" constant="20" symbolic="YES" id="oDy-Tg-qg2"/>
+                            <constraint firstItem="Pmd-XS-BtD" firstAttribute="leading" secondItem="Bev-yf-JDG" secondAttribute="trailing" constant="9" id="vmw-4V-Lgi"/>
+                            <constraint firstItem="Bev-yf-JDG" firstAttribute="leading" secondItem="h2y-X1-XxO" secondAttribute="leading" id="zrB-aL-Nc2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tvContent" destination="h2y-X1-XxO" id="gvB-78-DVR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="339"/>
+        </scene>
+    </scenes>
+</document>
