@@ -10,13 +10,12 @@ import Foundation
 
 var arr = [2,4,5,1,0,9,8]
 
-var tmp:Int
 for i in 0..<arr.count{
     for j in i+1..<arr.count{
-        if arr[i]<arr[j]{
-            tmp = arr[i]
-            arr[i] = arr[j]
-            arr[j]=tmp
+        if arr[i] < arr[j]{
+            arr[i] = arr[i] + arr[j]
+            arr[j] = arr[i] - arr[j]
+            arr[i] = arr[i] - arr[j]
         }
     }
 }
