@@ -10,7 +10,6 @@ import SpriteKit
 
 class GameScene: SKScene , CardDelegate{
     
-    
     let columns = 2
     let rows = 2
     var targets = [DragableCard]()
@@ -86,6 +85,8 @@ class GameScene: SKScene , CardDelegate{
         if suc {
             print("成功")
         }
+        
+        
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
